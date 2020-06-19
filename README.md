@@ -14,6 +14,7 @@ Pregunta 4 de la primera pc de matematica computacional
 ```console
   cd <carpeta donde se descargara>
   git clone https://github.com/gestorHan/RotacionCuboOpenGL.git
+  cd RotacionCuboOpenGL/
   ```  
 1. Verificar la variable de entorno correspondiente a python >=python 3.6.9 
   Puede ser 
@@ -26,7 +27,11 @@ Pregunta 4 de la primera pc de matematica computacional
   ``` 
   ..-Apartir de ahora nos referiremos a esta variable como ```python3```
 
-2. Crear un entorno virtual:
+2. Si no se tiene inatalado los entornos virtuales de python ejecutar
+```console
+  sudo apt-get install python3-venv
+  ```
+2.1 Crear un entorno virtual:
   ```console
   python3 -m venv pc1Jesus
   ```
