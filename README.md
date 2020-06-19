@@ -19,7 +19,7 @@ Pregunta 4 de la primera pc de matematica computacional
   ```console
   python3 --version
   ``` 
-  -Apartir de ahora nos referiremos a esta variable como ```python3```
+  ..-Apartir de ahora nos referiremos a esta variable como ```python3```
 
 2. Crear un entorno virtual:
   ```console
@@ -33,7 +33,7 @@ Pregunta 4 de la primera pc de matematica computacional
   ```console
     python3 -m pip install PyOpenGL PyOpenGL_accelerate
     python3 -m pip install glfw
-    python3 -m pip numpy
+    python3 -m pip install numpy
   ```
   5.Ejecutar index.py
   ```console
