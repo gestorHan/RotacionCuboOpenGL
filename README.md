@@ -16,8 +16,7 @@ Pregunta 4 de la primera pc de matematica computacional
   git clone https://github.com/gestorHan/RotacionCuboOpenGL.git
   cd RotacionCuboOpenGL/
   ```  
-1. Verificar la variable de entorno correspondiente a python >=python 3.6.9 
-  Puede ser 
+  1. Verificar la variable de entorno correspondiente a python>=3.6.9 Puede ser: 
   ```console
   python --version
   ``` 
@@ -27,19 +26,7 @@ Pregunta 4 de la primera pc de matematica computacional
   ``` 
   ..-Apartir de ahora nos referiremos a esta variable como ```python3```
 
-2. Si no se tiene inatalado los entornos virtuales de python ejecutar
-```console
-  sudo apt-get install python3-venv
-  ```
-2.1 Crear un entorno virtual:
-  ```console
-  python3 -m venv pc1Jesus
-  ```
-3.Acceder al entorno 
-  ```console
-  source pc1Jesus/bin/activate
-  ```
- 4.Instalar librerias necesarias
+  2.Instalar librerias necesarias
   ```console
     python3 -m pip install PyOpenGL PyOpenGL_accelerate
     python3 -m pip install glfw
@@ -48,4 +35,15 @@ Pregunta 4 de la primera pc de matematica computacional
   5.Ejecutar index.py
   ```console
     python3 index.py
+   ```
+  6.Si se obtiene el error
+  ```console
+   ImportError("Failed to load GLFW3 shared library.")
+   ```
+  Instalar ejecutando:
+  ```console
+    sudo apt-get install libglfw3
+    suedo apt-get install libglfw3-dev
   ```
+  
+  
