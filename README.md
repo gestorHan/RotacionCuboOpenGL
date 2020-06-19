@@ -9,7 +9,12 @@ Pregunta 4 de la primera pc de matematica computacional
 * Espacio: rotar antihorario de 0°-> 30° y horario de 30° -> 0° respecto al vector (1,1,1)
 <img src="https://github.com/gestorHan/RotacionCuboOpenGL/blob/master/images/space.jpg" height="20" width="80" >
 
-# Instrucciones de ejecucion
+# Instrucciones de ejecución
+0. Cambiar la terminal a la carpeta donde se realizara la descarga y clonar el repositorio
+```console
+  cd <carpeta donde se descargara>
+  git clone https://github.com/gestorHan/RotacionCuboOpenGL.git
+  ```  
 1. Verificar la variable de entorno correspondiente a python >=python 3.6.9 
   Puede ser 
   ```console
