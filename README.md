@@ -1,4 +1,9 @@
 # RotacionCuboOpenGL
 Pregunta 4 de la primera pc de matematica computacional
 
-![alt text](.images/der.png "Logo Title Text 1")
+Clic derecho
+![alt text](https://github.com/gestorHan/RotacionCuboOpenGL/blob/master/images/iz.png "Izqierda")
+Clic derecho
+![alt text](https://github.com/gestorHan/RotacionCuboOpenGL/blob/master/images/der.png "Derecha")
+Clic derecho
+![alt text](https://github.com/gestorHan/RotacionCuboOpenGL/blob/master/images/space.jpg "Espacio")
