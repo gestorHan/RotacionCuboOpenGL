@@ -32,7 +32,7 @@ Pregunta 4 de la primera pc de matematica computacional
     python3 -m pip install glfw
     python3 -m pip install numpy
   ```
-  5.Ejecutar index.py
+  3.Ejecutar index.py
   ```console
     python3 index.py
    ```
