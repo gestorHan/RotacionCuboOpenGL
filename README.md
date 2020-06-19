@@ -20,7 +20,7 @@ Pregunta 4 de la primera pc de matematica computacional
   ```console
   python --version
   ``` 
-  o 
+  ..o 
   ```console
   python3 --version
   ``` 
