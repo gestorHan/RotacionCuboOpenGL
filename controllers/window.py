@@ -16,7 +16,7 @@ class Window:
         if not glfw.init():
             raise Exception('Glfw can not be initialized!')
         # Creating the window
-        my_win = glfw.create_window(800, 800,"Rotación cubo", None, None)
+        my_win = glfw.create_window(800, 800,"Rotación cubo = presione espacio ␣", None, None)
         # Check if window was created
         if not my_win:
             glfw.terminate()
