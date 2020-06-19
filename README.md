@@ -36,7 +36,7 @@ Pregunta 4 de la primera pc de matematica computacional
   ```console
     python3 index.py
    ```
-  6.Si se obtiene el error
+  *Si se obtiene el error
   ```console
    ImportError("Failed to load GLFW3 shared library.")
    ```
