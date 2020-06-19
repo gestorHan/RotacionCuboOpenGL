@@ -1,8 +1,37 @@
 # RotacionCuboOpenGL
 Pregunta 4 de la primera pc de matematica computacional
 
-# Controles
+# Instrucciones
+1. Verificar la variable de entorno correspondiente a python >=python 3.6.9 
+  Puede ser 
+  ```console
+  python --version
+  ``` 
+  o 
+  ```console
+  python3 --version
+  ``` 
+  -Apartir de ahora nos referiremos a esta variable como ```python3```
 
+2. Crear un entorno virtual:
+  ```console
+  python3 -m venv pc1Jesus
+  ```
+3.Acceder al entorno 
+  ```console
+  source pc1Jesus/bin/activate
+  ```
+ 4.Instalar librerias necesarias
+  ```console
+    python3 -m pip install PyOpenGL PyOpenGL_accelerate
+    python3 -m pip install glfw
+    python3 -m pip numpy
+  ```
+  5.Ejecutar index.py
+  ```console
+    python3 index.py
+  ```
+# Controles
 * Click izquierdo: rotar horario respecto al eje y
 <img src="https://raw.githubusercontent.com/gestorHan/RotacionCuboOpenGL/master/images/izq.png" height="48" width="48" >
 
