@@ -43,7 +43,7 @@ Pregunta 4 de la primera pc de matematica computacional
   Instalar ejecutando:
   ```console
     sudo apt-get install libglfw3
-    suedo apt-get install libglfw3-dev
+    sudo apt-get install libglfw3-dev
   ```
   
   
